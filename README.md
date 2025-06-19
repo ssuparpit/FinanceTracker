@@ -19,4 +19,48 @@ The *FinanceTracker.ipynb* notebook loads transaction data from a CSV file into 
 - Optimized Budget: A table suggesting budget allocations per category to achieve a user-defined savings goal.
 
 # Setup Instructions
-1. Clone the Repository: 
+1. Clone the Repository:
+https://github.com/ssuparpit/FinanceTracker.git
+2. Create and Activate Environment:
+conda create -n finance_tracker python=3.13
+conda activate finance_tracker
+3. Install Dependencies:
+conda install pandas numpy scikit-learn scipy plotly ipywidgets jupyter
+4. Place Data File:
+- Download or copy `personal_transactions.csv` (containing sample transactions) into the project folder (`C:\Users\iamar` or the cloned directory).
+5. Launch Jupyter Notebook:
+Open `FinanceTracker.ipynb` and run all cells to see the dashboard.
+
+# Tech Stack
+- Programming Language: Python 3.9
+- Database: SQLite
+- Environment: Jupyter Notebook
+- Libraries: 
+- `pandas` for data handling
+- `numpy` for numerical operations
+- `scikit-learn` for linear regression
+- `scipy` for optimization
+- `plotly` for interactive visualizations
+- `ipywidgets` for interactive forms
+
+# How to Use
+- Run the notebook cells in order.
+- Use the interactive form to add transactions (e.g., Date: 2025-06-19, Amount: 10.50, Type: debit).
+- Adjust the savings goal and budget in the optimizer to see recommended allocations.
+- Charts update dynamically based on the data.
+
+# Sample Output
+- Spending by Category: Bars showing, e.g., $500 for Groceries, $300 for Restaurants.
+- Monthly Trend: Line graph with peaks in December 2018.
+- Forecast: Predicted expenses rising from $200 to $250 over 30 days.
+- Optimizer: Table suggesting $100 for Groceries, $50 for Restaurants for a $500 savings goal with a $2000 budget.
+
+# Future Improvements
+- Add export functionality for reports.
+- Implement real-time data syncing.
+- Enhance forecasting with more advanced models.
+
+# Author
+- Developed by: Your Name
+- GitHub: [ssuparpit](https://github.com/ssuparpit)
+- Date: June 19, 2025
