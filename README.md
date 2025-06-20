@@ -50,10 +50,9 @@ Open `FinanceTracker.ipynb` and run all cells to see the dashboard.
 - Charts update dynamically based on the data.
 
 # Sample Output
-- Spending by Category: Bars showing, e.g., $500 for Groceries, $300 for Restaurants.
-- Monthly Trend: Line graph with peaks in December 2018.
-- Forecast: Predicted expenses rising from $200 to $250 over 30 days.
-- Optimizer: Table suggesting $100 for Groceries, $50 for Restaurants for a $500 savings goal with a $2000 budget.
+- Spending by Category: (spending_by_category.png) showing total debit amounts per category.
+- Monthly Trend: (monthly_spending_trend.png) displaying spending trends over months.
+- Forecast: (30_day_forecast.png) predicting expenses for the next 30 days.
 
 # Future Improvements
 - Add export functionality for reports.
